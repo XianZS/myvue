@@ -1,7 +1,7 @@
 <script setup>
     // import KeyDemo from "./components/KeyDemo.vue"
     import EventDemo1 from "./components/EventDemo1.vue"
-    import EventDemo2 from "@/components/EventDemo2.vue";
+    import EventDemo2 from "./components/EventDemo2.vue";
 </script>
 
 <template>
