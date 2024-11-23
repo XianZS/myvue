@@ -5,6 +5,10 @@
     import EventDemo3 from "./components/EventDemo3.vue";
     import EventDemo4 from "./components/EventDemo4.vue";
     import EventDemo5 from "./components/EventDemo5.vue";
+    import ArrayList from "./components/ArrayList.vue";
+    import ComputerDemo from "@/components/ComputerDemo.vue";
+    import ClassDemo from "./components/ClassDemo.vue";
+    import StyleDemo from "./components/StyleDemo.vue";
 </script>
 
 <template>
@@ -13,8 +17,13 @@
 <!--    <EventDemo2 />-->
 <!--    <EventDemo3 />-->
 <!--    <EventDemo4 />-->
-    <EventDemo5 />
+<!--    <EventDemo5 />-->
+<!--    <ArrayList />-->
+<!--    <ComputerDemo />-->
+<!--    <ClassDemo />-->
+<!--    <StyleDemo />-->
 </template>
+
 
 
 <!--<script setup>-->

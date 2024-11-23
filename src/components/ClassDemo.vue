@@ -1,0 +1,26 @@
+<template>
+    <!-- 可以接收一个对象 isActive -->
+    <p :class="{'active':isActive}">
+        Class样式绑定
+    </p>
+</template>
+
+<script>
+export default {
+    data() {
+        return {
+            isActive: true
+        }
+    },
+    methods: {},
+    computed: {}
+}
+</script>
+
+
+<style>
+.active {
+    color: red;
+    font-size: 30px;
+}
+</style>
