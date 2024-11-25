@@ -1,13 +1,17 @@
 <template>
-    <ComponentEvent/>
+    <SlotsBase>
+        <div>
+            <h3>插槽标题</h3>
+        </div>
+    </SlotsBase>
 </template>
 
 <script>
-import ComponentEvent from "@/components/ComponentEvent.vue";
+import SlotsBase from './components/SlotsBase.vue'
 
 export default {
     components: {
-        ComponentEvent,
+        SlotsBase
     }
 }
 </script>
