@@ -1,16 +1,16 @@
+<template>
+    <ComponentEvent/>
+</template>
+
 <script>
-import Parents from "./components/Parents.vue";
+import ComponentEvent from "@/components/ComponentEvent.vue";
 
 export default {
     components: {
-        Parents,
+        ComponentEvent,
     }
 }
 </script>
-
-<template>
-    <Parents/>
-</template>
 
 <style scoped>
 

@@ -3,7 +3,15 @@ import Child from "@/components/Child.vue";
 
 export default {
     data() {
-        return {}
+        return {
+            message: "ds1",
+            age: 20,
+            names: ["jom", "kom", "lom"],
+            userInfo: {
+                names: "kom",
+                age: 10,
+            }
+        }
     },
     components: {
         Child
@@ -13,7 +21,7 @@ export default {
 
 <template>
     <h3>Parent</h3>
-    <Child some="传入数据"/>
+    <Child v-bind:some="message" v-bind:age="age" v-bind:names="names" v-bind:userInfo="userInfo"/>
 </template>
 
 <style scoped>
