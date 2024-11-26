@@ -1,17 +1,18 @@
 <template>
-    <SlotsBase>
-        <div>
-            <h3>插槽标题</h3>
-        </div>
-    </SlotsBase>
+    <DemoLife>
+
+    </DemoLife>
 </template>
 
 <script>
-import SlotsBase from './components/SlotsBase.vue'
+import DemoLife from "./components/DemoLife.vue";
 
 export default {
+    data() {
+        return {}
+    },
     components: {
-        SlotsBase
+        DemoLife,
     }
 }
 </script>
